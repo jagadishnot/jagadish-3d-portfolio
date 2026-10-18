@@ -1,3 +1,4 @@
+
 {
   "name": "jagadish-3d-portfolio",
   "private": true,
@@ -5,19 +6,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite",
+    "build": "vite build",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.17.10",
+    "@gsap/react": "^2.1.2",
     "framer-motion": "^11.15.0",
+    "gsap": "^3.12.7",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "three": "^0.171.0",
-    "gsap": "^3.12.7",
-    "@gsap/react": "^2.1.2"
+    "three": "^0.171.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
