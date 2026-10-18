@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1530"/><stop offset="1" stop-color="#080b18"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5cdbad" stop-opacity=".72"/><stop offset="1" stop-color="#5f8fff" stop-opacity=".16"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5cdbad"/><stop offset="1" stop-color="#5f8fff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#000" flood-opacity=".6"/></filter>
+</defs>
+<rect width="720" height="400" rx="24" fill="url(#bg)"/>
+<g opacity=".18" stroke="#5f8fff" stroke-width="1"><path d="M0 80H720M0 160H720M0 240H720M0 320H720M90 0V400M180 0V400M270 0V400M360 0V400M450 0V400M540 0V400M630 0V400"/></g>
+<circle cx="545" cy="120" r="105" fill="#5cdbad" opacity=".15" filter="url(#glow)"/>
+<circle cx="170" cy="320" r="95" fill="#5f8fff" opacity=".13" filter="url(#glow)"/>
+<path d="M360 320L510 235L650 315L500 390Z" fill="#5f8fff" opacity=".12"/>
+<g filter="url(#shadow)">
+ <path d="M210 245L405 130L565 220L370 335Z" fill="url(#glass)" stroke="url(#edge)" stroke-width="2"/>
+ <path d="M210 245L370 335V360L210 270Z" fill="#5cdbad" opacity=".25"/>
+ <path d="M370 335L565 220V245L370 360Z" fill="#5f8fff" opacity=".35"/>
+<g transform="translate(285 112)" filter="url(#shadow)">
+<rect x="0" y="0" width="220" height="150" rx="12" fill="#111b37" stroke="#68e5f7" stroke-width="3"/>
+<rect x="0" y="0" width="220" height="27" rx="10" fill="#26335a"/>
+<circle cx="15" cy="13" r="4" fill="#ff769e"/><circle cx="29" cy="13" r="4" fill="#ffd16b"/><circle cx="43" cy="13" r="4" fill="#63f0c0"/>
+<rect x="15" y="42" width="56" height="92" rx="5" fill="#7c64ff" opacity=".7"/>
+<rect x="83" y="42" width="122" height="17" rx="4" fill="#7edff5" opacity=".65"/>
+<rect x="83" y="69" width="122" height="8" rx="4" fill="#6c7ba9"/>
+<rect x="83" y="84" width="88" height="8" rx="4" fill="#6c7ba9"/>
+<rect x="83" y="104" width="122" height="30" rx="5" fill="#4fdfb3" opacity=".65"/>
+</g></g>
+<text x="42" y="55" fill="#f4f5ff" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="2">MERN PLATFORM</text>
+<text x="44" y="80" fill="#5cdbad" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">FULL STACK</text>
+<rect x="40" y="342" width="148" height="4" rx="2" fill="url(#edge)"/>
+<circle cx="670" cy="55" r="5" fill="#5cdbad"/><circle cx="687" cy="55" r="5" fill="#5f8fff"/>
+</svg>

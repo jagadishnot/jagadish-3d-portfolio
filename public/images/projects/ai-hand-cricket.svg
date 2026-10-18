@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1530"/><stop offset="1" stop-color="#080b18"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff9d53" stop-opacity=".72"/><stop offset="1" stop-color="#9b66ff" stop-opacity=".16"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff9d53"/><stop offset="1" stop-color="#9b66ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#000" flood-opacity=".6"/></filter>
+</defs>
+<rect width="720" height="400" rx="24" fill="url(#bg)"/>
+<g opacity=".18" stroke="#9b66ff" stroke-width="1"><path d="M0 80H720M0 160H720M0 240H720M0 320H720M90 0V400M180 0V400M270 0V400M360 0V400M450 0V400M540 0V400M630 0V400"/></g>
+<circle cx="545" cy="120" r="105" fill="#ff9d53" opacity=".15" filter="url(#glow)"/>
+<circle cx="170" cy="320" r="95" fill="#9b66ff" opacity=".13" filter="url(#glow)"/>
+<path d="M360 320L510 235L650 315L500 390Z" fill="#9b66ff" opacity=".12"/>
+<g filter="url(#shadow)">
+ <path d="M210 245L405 130L565 220L370 335Z" fill="url(#glass)" stroke="url(#edge)" stroke-width="2"/>
+ <path d="M210 245L370 335V360L210 270Z" fill="#ff9d53" opacity=".25"/>
+ <path d="M370 335L565 220V245L370 360Z" fill="#9b66ff" opacity=".35"/>
+<g transform="translate(300 105)" filter="url(#shadow)">
+<ellipse cx="100" cy="170" rx="125" ry="18" fill="#4a59d8" opacity=".35"/>
+<path d="M10 160L40 45Q45 30 58 34Q71 38 66 52L38 165Z" fill="#e9c28a" stroke="#ffe3ae" stroke-width="3"/>
+<circle cx="142" cy="65" r="31" fill="#ff6f7e" stroke="#ffb0b6" stroke-width="3"/>
+<path d="M125 48Q151 65 157 83M154 43Q136 66 127 82" stroke="#fff" stroke-width="3" fill="none"/>
+<path d="M75 140L118 115L146 132L104 157Z" fill="#7b69ff" stroke="#a8a0ff" stroke-width="3"/>
+<path d="M102 157L102 185M114 150L114 183M126 143L126 179" stroke="#66e7f4" stroke-width="5" stroke-linecap="round"/>
+</g></g>
+<text x="42" y="55" fill="#f4f5ff" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="2">AI HAND CRICKET</text>
+<text x="44" y="80" fill="#ff9d53" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">COMPUTER VISION</text>
+<rect x="40" y="342" width="148" height="4" rx="2" fill="url(#edge)"/>
+<circle cx="670" cy="55" r="5" fill="#ff9d53"/><circle cx="687" cy="55" r="5" fill="#9b66ff"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111a36"/><stop offset="1" stop-color="#070a17"/></linearGradient>
+<linearGradient id="plaque" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5de8c2"/><stop offset="1" stop-color="#6389ff"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity=".6"/></filter>
+<filter id="glow"><feGaussianBlur stdDeviation="9"/></filter></defs>
+<rect width="420" height="300" rx="20" fill="url(#bg)"/>
+<circle cx="210" cy="120" r="100" fill="#5de8c2" opacity=".15" filter="url(#glow)"/>
+<g filter="url(#shadow)">
+<path d="M58 58L210 20L362 58V218L210 260L58 218Z" fill="#0a1024" stroke="url(#plaque)" stroke-width="4"/>
+<path d="M72 68L210 35L348 68V207L210 244L72 207Z" fill="url(#plaque)" opacity=".22"/>
+<path d="M85 78L210 48L335 78V197L210 228L85 197Z" fill="#f4f4ff" stroke="#fff" stroke-opacity=".65" stroke-width="2"/>
+<path d="M100 92H320M100 184H320" stroke="#6389ff" stroke-width="2" opacity=".75"/>
+<circle cx="210" cy="134" r="46" fill="#111b37" stroke="url(#plaque)" stroke-width="4"/>
+<circle cx="210" cy="134" r="37" fill="none" stroke="#5de8c2" stroke-width="1.5" stroke-dasharray="4 5"/>
+<text x="210" y="145" fill="#fff" font-family="Arial,sans-serif" font-size="32" font-weight="700" text-anchor="middle">BD</text>
+<path d="M90 230L75 280L110 260L137 285L133 222Z" fill="#5de8c2" opacity=".85"/>
+<path d="M330 230L345 280L310 260L283 285L287 222Z" fill="#6389ff" opacity=".85"/>
+</g>
+<text x="210" y="286" fill="#f1f3ff" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="2">BIG DATA</text>
+</svg>
